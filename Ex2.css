@@ -1,0 +1,70 @@
+body{
+    font-size: 16px;
+    font-family: Arial;
+}
+
+form{
+    background-color: #ffffcc;
+    width: 500px;
+    margin: 0px auto;
+}
+
+form .title{
+    display: flex;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+form .img{
+    size: 10px 10px;
+}
+
+form .title h1{
+    color: #0000CC;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.logIn{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form .logIn label{
+    width: 25%;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: #000066;
+    font-weight: bold;
+}
+
+.logIn input{
+    width: 40%;
+    float: left;
+    border: none;
+    padding: 5px 10px;
+}
+
+.logIn #name{
+    width: 60%;
+}
+
+form #btn{
+    margin-left: 150px;
+}
+
+form img{
+    vertical-align: middle;
+}
+
+form .button{
+    font-family: Arial;
+    margin-right: 15px;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+    background-color: #CCCCCC;
+    border: none;
+}
